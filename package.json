@@ -1,5 +1,5 @@
 {
-  "name": "GOFamily",
+  "name": "408",
   "version": "v1.0.0",
   "description": "A book for go back-end programmers",
   "main": "index.js",
@@ -9,13 +9,13 @@
     "build": "vuepress build .",
     "export": "vuepress export ."
   },
-  "repository": "git+https://github.com/shgopher/GOFamily.git",
+  "repository": "git+https://github.com/shgopher/408.git",
   "author": "shgopher@qq.com",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/shgopher/GOFamily/issues"
+    "url": "https://github.com/shgopher/408/issues"
   },
-  "homepage": "https://github.com/shgopher/GOFamily#readme",
+  "homepage": "https://github.com/shgopher/408#readme",
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.4.0",
     "@vuepress/plugin-google-analytics": "^1.4.0",
