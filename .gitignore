@@ -1,0 +1,9 @@
+.vscode
+.idea
+.Ds_Store
+node_modules
+go.mod
+go.sum
+.temp
+.cache
+dist

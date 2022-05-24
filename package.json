@@ -1,0 +1,33 @@
+{
+  "name": "GOFamily",
+  "version": "v1.0.0",
+  "description": "A book for go back-end programmers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vuepress dev .",
+    "build": "vuepress build .",
+    "export": "vuepress export ."
+  },
+  "repository": "git+https://github.com/shgopher/GOFamily.git",
+  "author": "shgopher@qq.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shgopher/GOFamily/issues"
+  },
+  "homepage": "https://github.com/shgopher/GOFamily#readme",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.4.0",
+    "@vuepress/plugin-google-analytics": "^1.4.0",
+    "@vuepress/plugin-nprogress": "^1.9.7",
+    "github-buttons": "^2.13.0",
+    "moment": "^2.24.0",
+    "puppeteer": "^1.11.0",
+    "vuepress": "^1.4.0",
+    "vuepress-plugin-baidu-autopush": "^1.0.1",
+    "vuepress-plugin-comment": "^0.7.3"
+  },
+  "dependencies": {
+    "vuepress-plugin-baidu-tongji-analytics": "^1.0.2"
+  }
+}

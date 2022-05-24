@@ -1,0 +1,13 @@
+# 数据库
+## 理论基础
+## sql
+- sql
+- mysql
+## nosql
+- redis
+- 服务器缓存
+- mongodb
+## newsql
+- tidb
+## 参考资料
+- https://www.db-fiddle.com/?continueFlag=7353c17a2f8cc8771ca51a671629fd68
