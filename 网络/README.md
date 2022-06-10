@@ -10,3 +10,4 @@
 ## cdn
 ## 参考资料
 - https://icyfenix.cn/architect-perspective/general-architecture/diversion-system/
+- https://github.com/tmplink/ipv6
