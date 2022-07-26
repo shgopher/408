@@ -11,3 +11,4 @@
 ## 参考资料
 - https://icyfenix.cn/architect-perspective/general-architecture/diversion-system/
 - https://github.com/tmplink/ipv6
+- https://mp.weixin.qq.com/s/5VBXphnAYoDnvlaCuQcNaA
