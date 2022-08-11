@@ -6,5 +6,5 @@ eBPF的全称是 extend berkeley package filter(扩展的伯克利包过滤器)�
 
 因为不能让我们直接操作内核态中的各项子系统，所以eBPF提供了一系列的辅助函数，来帮助跟其它内核态的子系统进行交互，这样可以确保更高的安全性，为了更高的安全性，编译的字节码在装载到bpf中时都会进行一些列的验证，总而言之，安全是eBPF的又一大特点。
 
-目前，eBPF主要用在网络的监控，容器安全等领域，比如[cilium](https://cilium.io/)项目就是以go为编程语言的eBPF项目，它主要关注于容器的安全，另外还有[bcc](https://github.com/iovisor/bcc)项目，它提供了一系列的关于eBPF的工具，主要语言是c和Python。
+目前，eBPF主要用在**故障诊断**，**网络优化**，**安全控制**，**性能监控**等领域，比如[cilium](https://cilium.io/)项目就是以go为编程语言的eBPF项目，它主要关注于容器的安全，另外还有[bcc](https://github.com/iovisor/bcc)项目，它提供了一系列的关于eBPF的工具，主要语言是c和Python。
 
