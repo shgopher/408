@@ -396,6 +396,18 @@ module.exports = {
               },
             ],
           },
+          {
+            title:'综合题',
+            collapsable:false,
+            path:"/算法/综合题/",
+            children:[
+              {
+                title:'《计算之魂》综合题',
+                collapsable:false,
+                path:"/算法/综合题/计算之魂.md",
+              },
+            ]
+          }
         ],
       },
       {
