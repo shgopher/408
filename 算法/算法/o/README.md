@@ -2,7 +2,7 @@
  * @Author: shgopher shgopher@gmail.com
  * @Date: 2023-01-10 23:44:05
  * @LastEditors: shgopher shgopher@gmail.com
- * @LastEditTime: 2023-01-12 23:25:09
+ * @LastEditTime: 2023-01-12 21:50:23
  * @FilePath: /408/算法/算法/o/README.md
  * @Descriptipi
  * 使用大 o 的方式去评价算法的效率
@@ -128,7 +128,7 @@ for j:= 0;j < n ;j++ {
 
 对数级的时间复杂度，是目前来说最佳的算法复杂度，因为常量级的复杂度本身几乎没什么意义，它没有变化的趋势，从趋势来说，一个无穷大的n，使用对数得到的值在众多算法中是最佳的。
 
-<!-- ![](./公式.jpeg) -->
+![](./公式.jpeg)
 
 ## 空间复杂度分析
 常见的空间复杂度有:
