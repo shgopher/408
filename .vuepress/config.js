@@ -42,25 +42,6 @@ module.exports = {
         'ga': 'G-GFKQEFHX3B'
       }
     ],
-    [
-      'vuepress-plugin-comment',
-      {
-        choosen: 'gitalk',
-        options: {
-          clientID: '85004af93d8575a08b45',
-          clientSecret: '2dcf9e4b22db986147f40cae038e2e5f57e72765',
-          repo: '408',
-          owner: 'shgopher',
-          admin: ['shgopher'],
-          labels: ["Gitalk", "Comment"],
-          id: '<%- ("408" + (frontmatter.to.path || window.location.pathname)).slice(-50) %>',
-          title: '「Comment」<%- window.location.origin + (frontmatter.to.path || window.location.pathname) %>',
-          body: '<%- window.location.origin + (frontmatter.to.path || window.location.pathname) %>',
-          distractionFreeMode: false,
-          pagerDirection: 'last',
-        }
-      }
-    ],
     ['@vuepress/back-to-top'],
     ['@vuepress/nprogress'],
     'vuepress-plugin-baidu-autopush',
