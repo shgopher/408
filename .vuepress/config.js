@@ -107,6 +107,23 @@ module.exports = {
         collapsable:false,
         children:[
           {
+            title:'概述',
+            collapsable:false,
+            path:"/算法/概述/",
+            children:[
+              {
+                title:'最要的十大算法介绍',
+                collapsable:false,
+                path:"/算法/概述/十大著名算法概要/",
+              },
+              {
+                title:'对系统设计非常有用的算法介绍',
+                collapsable:false,
+                path:"/算法/概述/对系统设计非常重要的算法/",
+              }
+            ]
+          },
+          {
             title:'数据结构',
             collapsable:false,
             path:"/算法/数据结构/",
