@@ -9,7 +9,7 @@
  * Copyright (c) 2023 by shgopher, All Rights Reserved. 
 -->
 # 对系统设计非常重要的算法
-![](./对系统设计非常重要的算法.jpeg)
+![](./system-design.jpeg)
 ## geohash
 Geohash是一种将地理坐标转换为字符串编码的算法，它可以将地球表面的任意位置表示为一个短字符串，方便存储、传输和查询。Geohash算法基于网格划分的思想，将地球表面划分为多个矩形区域，并为每个区域分配一个唯一的字符串编码。以下是Geohash算法的一些特点和应用：
 
