@@ -24,7 +24,7 @@
 - [短地址生成算法](./短地址生成算法/README.md)
 - [字符串匹配算法](./字符串匹配算法/README.md)
 - [限流算法](./限流算法/README.md)
-- [唯一id生成算法](./唯一id生成算法/README.md)
+- [唯一 id 生成算法](./唯一id生成算法/README.md)
 - [抢红包算法](./抢红包算法/README.md)
 - [topk](./topk/README.md)
 - [洗牌算法](./洗牌算法/README.md)
