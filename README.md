@@ -81,6 +81,8 @@ hey~，我是科科人神，目前就职于国内一家互联网公司，你们�
 - [扫描线算法](/算法/算法题/扫描线算法/README.md)
 - [TreeMap](/算法/算法题/TreeMap/README.md)
 - [动态规划](/算法/算法题/动态规划/README.md)
+#### 算法题集合推荐
+- [鸟窝总结的 leetcode 真题](https://shgopher.github.io/pdf/leetcode-collection.pdf)
 ### 综合题
 - [计算之魂课后题](./算法/综合题/计算之魂.md)
 ## 网络
