@@ -2,7 +2,7 @@
  * @Author: shgopher shgopher@gmail.com
  * @Date: 2024-04-02 14:35:26
  * @LastEditors: shgopher shgopher@gmail.com
- * @LastEditTime: 2024-04-02 14:47:26
+ * @LastEditTime: 2024-04-02 14:53:07
  * @FilePath: /408/算法/算法/蓄水池算法/README.md
  * @Description: 
  * 
@@ -95,5 +95,40 @@ func ReservoirSample(stream <-chan int, k int) []int {
     }
 
     return reservoir
+}
+```
+### ts 版本
+```ts
+function reservoirSample<T>(stream: Iterable<T>, k: number): T[] {
+  // 初始化reservoir
+  const reservoir = new Array<T>(k);
+  const iterator = stream[Symbol.iterator]();
+
+  // 填充前k个元素
+  for (let i = 0; i < k; i++) {
+    const { value, done } = iterator.next();
+    if (done) {
+      // 如果数据流长度小于k,直接返回所有元素
+      return reservoir.slice(0, i);
+    }
+    reservoir[i] = value;
+  }
+
+  // 遍历剩余数据流
+  let index = k;
+  while (true) {
+    const { value, done } = iterator.next();
+    if (done) {
+      break; // 数据流结束
+    }
+
+    const j = Math.floor(Math.random() * (index + 1)); // 生成[0, index]范围内的随机整数
+    if (j < k) {
+      reservoir[j] = value; // 以k/(index+1)的概率替换reservoir中的元素
+    }
+    index++;
+  }
+
+  return reservoir;
 }
 ```
